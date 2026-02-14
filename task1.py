@@ -7,8 +7,6 @@
 """
 from pathlib import Path
 
-# 0 - текущая папка, 1 - вложенные и тд
-
 def print_tree(root_path: Path, prefix: str = "", max_depth: int = 2, current_depth: int = 0):
     if current_depth > max_depth:
         return
